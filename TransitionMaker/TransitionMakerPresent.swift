@@ -48,6 +48,11 @@ class TransitionMakerPresent : NSObject , UIViewControllerAnimatedTransitioning 
             self.animateTransitionObject(transitionObject, fromViewController: fromViewController!, toViewController: toViewController!, containerView: containerView!)
         }
         
+        UIView.animateWithDuration(self.duration, animations: {
+            toViewController?.view.alpha = 1.0
+            }, completion: { (finish) in
+                transitionContext.completeTransition(true)
+        })
     }
     
     
@@ -61,46 +66,4 @@ class TransitionMakerPresent : NSObject , UIViewControllerAnimatedTransitioning 
         }
     }
     
-//        transitionObject.viewToAnimateTo.hidden = true
-//        transitionObject.viewToAnimateFrom.hidden = true
-//        
-//        
-//        var viewEndFrame = toViewController.view!.convertRect(transitionObject.viewToAnimateTo.frame, toView: containerView)
-//        if let isFrameToAnimateTo = transitionObject.frameToAnimateTo {
-//            viewEndFrame = isFrameToAnimateTo
-//        }
-//        
-//        assert(transitionObject.viewToAnimateFrom.image != nil, "Trying to animate with no Image")
-//        
-//        let viewToAnimateFromCopy = UIImageView(image: transitionObject.viewToAnimateFrom.image!.copyMe())
-//        viewToAnimateFromCopy.contentMode = UIViewContentMode.ScaleAspectFill
-//        
-//        viewToAnimateFromCopy.frame = transitionObject.viewToAnimateFrom.superview!.convertRect(transitionObject.viewToAnimateFrom.frame, toView: containerView)
-//        
-//        viewToAnimateFromCopy.clipsToBounds = true
-//        
-//        let viewHasRoundedCorders = transitionObject.viewToAnimateFrom.layer.cornerRadius == transitionObject.viewToAnimateFrom.frame.size.height/2;
-//        let scaleSize = viewEndFrame.height/viewToAnimateFromCopy.frame.height
-//        if (viewHasRoundedCorders == true) {
-//            viewToAnimateFromCopy.layer.cornerRadius = viewToAnimateFromCopy.frame.size.height/2
-//        }
-//        
-//        containerView.addSubview(viewToAnimateFromCopy)
-//        
-//        UIView.animateWithDuration(transitionObject.duration, delay: 0, options: animationOptions, animations: {
-//            
-//            if viewHasRoundedCorders == true {
-//                viewToAnimateFromCopy.transform = CGAffineTransformMakeScale(scaleSize, scaleSize)
-//                viewToAnimateFromCopy.center = CGPointMake(viewEndFrame.origin.x + (viewEndFrame.width/2), viewEndFrame.origin.y + (viewEndFrame.height/2))
-//            } else {
-//                viewToAnimateFromCopy.frame = viewEndFrame
-//            }
-//        }) { (finished) in}
-//        
-//        afterDelay((transitionObject.duration + fadeOutAnimationDelay)) {
-//            viewToAnimateFromCopy.removeFromSuperview()
-//            transitionObject.viewToAnimateTo.hidden = false
-//            transitionObject.viewToAnimateFrom?.hidden = false
-//        }
-//    }
 }
