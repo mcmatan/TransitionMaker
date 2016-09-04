@@ -31,22 +31,4 @@ public class ImageScaleTransitionObject : NSObject, TransitionObject {
         self.duration = duration
     }
     
-//    internal static func  transitionForOperation(operation: UINavigationControllerOperation, transitionObjects : Array<ImageScaleTransitionObject>, usingNavigationController : Bool, duration: NSTimeInterval, fadeOutAnimationDuration : NSTimeInterval, fadeOutAnimationDelay : NSTimeInterval, fromViewController: UIViewController)->UIViewControllerAnimatedTransitioning {
-//        
-//        switch operation {
-//        case .Pop:
-//            return ImageScaleTransitionObject.createImageScaleTransitionDismiss(transitionObjects, usingNavigationController: usingNavigationController, duration: duration, fadeOutAnimationDuration: fadeOutAnimationDuration, fadeOutAnimationDelay: fadeOutAnimationDelay)
-//        case .Push:
-//            return ImageScaleTransitionObject.createImageScaleTransitionPresent(transitionObjects, usingNavigationController: usingNavigationController, duration: duration, fadeOutAnimationDuration: fadeOutAnimationDuration, fadeOutAnimationDelay: fadeOutAnimationDelay, fromViewController: fromViewController)
-//        }
-//    }
-//    
-//    internal static func createImageScaleTransitionDismiss(transitionObjects : Array<ImageScaleTransitionObject>, usingNavigationController : Bool, duration: NSTimeInterval, fadeOutAnimationDuration : NSTimeInterval, fadeOutAnimationDelay : NSTimeInterval)->ImageScaleTransitionDismiss {
-//        return  ImageScaleTransitionDismiss(transitionObjects: transitionObjects, usingNavigationController: usingNavigationController, duration : duration, fadeOutAnimationDuration : fadeOutAnimationDuration, fadeOutAnimationDelay : fadeOutAnimationDelay)
-//    }
-//    
-//    internal static func createImageScaleTransitionPresent(transitionObjects : Array<ImageScaleTransitionObject>, usingNavigationController : Bool, duration: NSTimeInterval, fadeOutAnimationDuration : NSTimeInterval, fadeOutAnimationDelay : NSTimeInterval, fromViewController: UIViewController)->ImageScaleTransitionPresent {
-//        return ImageScaleTransitionPresent(transitionObjects: transitionObjects, duration : duration, fadeOutAnimationDuration : fadeOutAnimationDuration, fadeOutAnimationDelay: fadeOutAnimationDelay, usingNavigationController: usingNavigationController)
-//    }
-    
 }

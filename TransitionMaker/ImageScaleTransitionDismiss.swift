@@ -10,55 +10,6 @@ import Foundation
 import UIKit
 
 class ImageScaleTransitionDismiss : NSObject  {
-//    let animationOptions = UIViewAnimationOptions.CurveEaseInOut
-//    var duration : NSTimeInterval!
-//    var transitionObjects: Array<ImageScaleTransitionObject>!
-//    var usingNavigationController : Bool
-//    let fadeOutAnimationDuration : NSTimeInterval
-//    let alphaZero : CGFloat = 0
-//    let fadeOutAnimationDelay : NSTimeInterval
-//
-//    init(transitionObjects : Array<ImageScaleTransitionObject>, usingNavigationController : Bool, duration: NSTimeInterval, fadeOutAnimationDuration : NSTimeInterval, fadeOutAnimationDelay : NSTimeInterval) {
-//        self.transitionObjects  = transitionObjects
-//        self.usingNavigationController = usingNavigationController
-//        self.fadeOutAnimationDuration = fadeOutAnimationDuration
-//        self.fadeOutAnimationDelay = fadeOutAnimationDelay
-//        super.init()
-//        self.duration = duration
-//    }
-//
-//    @objc func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
-//        return self.duration
-//    }
-//
-//    @objc func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
-//        let fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)
-//        let toViewController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)
-//        let containerView = transitionContext.containerView()
-//
-//        if self.usingNavigationController == true {
-//            containerView!.addSubview((toViewController!.view)!)
-//        }
-//        
-//        fromViewController!.view.alpha = 1
-//        containerView!.addSubview((fromViewController!.view)!)
-//
-//        for transitionObject in self.transitionObjects {
-//            self.animateTransitionObject(transitionObject, fromViewController: fromViewController!, toViewController: toViewController!, containerView: containerView!)
-//        }
-//
-//        UIView.animateWithDuration(self.duration, animations: {
-//            fromViewController?.view.alpha = self.alphaZero
-//            }, completion: nil)
-//        
-//        afterDelay(self.duration) { 
-//            UIView.animateWithDuration(self.duration/2, animations: {
-//                toViewController?.view.alpha = 1.0
-//                }, completion: { (finish) in
-//                    transitionContext.completeTransition(true)
-//            })
-//        }
-//    }
 
     static func animateTransitionObject(transitionObject : ImageScaleTransitionObject, fromViewController : UIViewController, toViewController : UIViewController, containerView : UIView, usingNavigationController: Bool, animationOptions: UIViewAnimationOptions, fadeOutAnimationDelay: NSTimeInterval) {
 

@@ -98,7 +98,8 @@ import TransitionMaker
             
             let transitionObjectAvatar = ImageScaleTransitionObject(viewToAnimateFrom: cell.imgAvater, viewToAnimateTo: self.noStoryBoardVC.imgAvatar, duration: 0.4)
             let transitionObjectCover = ImageScaleTransitionObject(viewToAnimateFrom: cell.imgCover, viewToAnimateTo: self.noStoryBoardVC.imgCover, duration: 0.4)
-            self.imageScalePresentTransition = TransitionMaker(transitionObjects: [transitionObjectCover ,transitionObjectAvatar], usingNavigationController: usingNavigationController, duration: 0.4)
+            let transitionObjectLbl = CrossfadeUpwardTransitionObject(viewToAnimateTo: self.noStoryBoardVC.lblDescription, frameToAnimateTo: nil, duration: 0.4)
+            self.imageScalePresentTransition = TransitionMaker(transitionObjects: [transitionObjectCover ,transitionObjectAvatar, transitionObjectLbl], usingNavigationController: usingNavigationController, duration: 0.4)
             
             if usingNavigationController == true {
                 self.navigationController!.delegate = self.imageScalePresentTransition

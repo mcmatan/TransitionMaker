@@ -61,6 +61,8 @@ class TransitionMakerPresent : NSObject , UIViewControllerAnimatedTransitioning 
         switch transitionObject {
         case let imageScaleTransition as ImageScaleTransitionObject:
             ImageScaleTransitionPresent.animateTransitionObject(imageScaleTransition, fromViewController: fromViewController, toViewController: toViewController, containerView: containerView, animationOptions: animationOptions, fadeOutAnimationDelay: fadeOutAnimationDelay)
+        case let crossFadeUpwards as CrossfadeUpwardTransitionObject:
+            CrossfadeUpwardTransitionPresent.animateTransitionObject(crossFadeUpwards, fromViewController: fromViewController, toViewController: toViewController, containerView: containerView, animationOptions: animationOptions, fadeOutAnimationDelay: fadeOutAnimationDelay)
         default: break
 
         }

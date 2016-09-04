@@ -9,5 +9,4 @@
 import Foundation
 
 public protocol TransitionObject {
-//    static func  transitionForOperation(operation: UINavigationControllerOperation, transitionObjects : Array<ImageScaleTransitionObject>, usingNavigationController : Bool, duration: NSTimeInterval, fadeOutAnimationDuration : NSTimeInterval, fadeOutAnimationDelay : NSTimeInterval, fromViewController: UIViewController)->UIViewControllerAnimatedTransitioning
 }
