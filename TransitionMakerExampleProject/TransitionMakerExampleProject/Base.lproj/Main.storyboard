@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UMo-gA-XnJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Details View Controller-->
+        <scene sceneID="ynN-Qz-5cz">
+            <objects>
+                <viewController storyboardIdentifier="DetailsViewController" id="0Hv-AO-J4r" customClass="DetailsViewController" customModule="TransitionMakerExampleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gjz-eg-dNG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zye-Be-6LT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LN0-dP-P2p">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81e-E9-gGB">
+                                <rect key="frame" x="281" y="491" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="btnDoneTaped:" destination="0Hv-AO-J4r" eventType="touchUpInside" id="Ejd-Jq-sw3"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="700" image="windows-xp-background-image-jpg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UOC-jU-FZN">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ME0-fj-C2c"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pk-5p-g62">
+                                <rect key="frame" x="20" y="254" width="560" height="180"/>
+                                <string key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crossroads-destiny-clip-4x3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="N3j-Ga-8Gp">
+                                <rect key="frame" x="270" y="160" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="DC6-uB-jV8"/>
+                                    <constraint firstAttribute="height" constant="60" id="ytX-5N-Idv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UOC-jU-FZN" secondAttribute="trailing" id="5Dy-LA-BuV"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="UOC-jU-FZN" secondAttribute="leading" id="Jpn-8P-Y2f"/>
+                            <constraint firstItem="N3j-Ga-8Gp" firstAttribute="centerX" secondItem="LN0-dP-P2p" secondAttribute="centerX" id="RLB-wX-53M"/>
+                            <constraint firstItem="UOC-jU-FZN" firstAttribute="top" secondItem="LN0-dP-P2p" secondAttribute="topMargin" id="UZf-gS-1Um"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0pk-5p-g62" secondAttribute="trailing" id="VjR-Em-CfS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UOC-jU-FZN" secondAttribute="trailing" id="b7C-Lw-P15"/>
+                            <constraint firstItem="81e-E9-gGB" firstAttribute="centerX" secondItem="LN0-dP-P2p" secondAttribute="centerX" id="bnb-YA-rEE"/>
+                            <constraint firstAttribute="leading" secondItem="UOC-jU-FZN" secondAttribute="leading" id="mim-gx-q8H"/>
+                            <constraint firstItem="0pk-5p-g62" firstAttribute="top" secondItem="N3j-Ga-8Gp" secondAttribute="bottom" constant="34" id="n1m-OC-Szu"/>
+                            <constraint firstItem="UOC-jU-FZN" firstAttribute="leading" secondItem="LN0-dP-P2p" secondAttribute="leadingMargin" id="qYc-cM-XQP"/>
+                            <constraint firstItem="0pk-5p-g62" firstAttribute="leading" secondItem="LN0-dP-P2p" secondAttribute="leadingMargin" id="rxb-n2-OsF"/>
+                            <constraint firstItem="N3j-Ga-8Gp" firstAttribute="bottom" secondItem="UOC-jU-FZN" secondAttribute="bottom" multiplier="1.1" id="wJ6-SF-4Jl"/>
+                            <constraint firstItem="81e-E9-gGB" firstAttribute="top" secondItem="0pk-5p-g62" secondAttribute="bottom" constant="57" id="zDs-H3-aIF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jpn-8P-Y2f"/>
+                                <exclude reference="b7C-Lw-P15"/>
+                                <exclude reference="qYc-cM-XQP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imgAvatar" destination="N3j-Ga-8Gp" id="4lh-fN-Bxy"/>
+                        <outlet property="imgCover" destination="UOC-jU-FZN" id="5rn-Y2-bxk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fSa-wv-0o3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="467"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FbZ-0x-h5U">
+            <objects>
+                <viewController id="pOo-pf-jK6" customClass="ViewController" customModule="TransitionMakerExampleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nJd-oT-fGC"/>
+                        <viewControllerLayoutGuide type="bottom" id="OAw-sh-hJN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jy5-AD-UjF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="258" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6CR-Ia-5iM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="258" id="xWu-5y-l06" customClass="ViewControllerCell" customModule="TransitionMakerExampleProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="600" height="258"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xWu-5y-l06" id="g4j-6c-fwK">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="257"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="700" image="windows-xp-background-image-jpg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CFQ-kq-U5j">
+                                                    <rect key="frame" x="8" y="157" width="584" height="92"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="92" id="GEN-k8-uJp"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crossroads-destiny-clip-4x3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6o9-Z3-Myy">
+                                                    <rect key="frame" x="16" y="15" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="Bfs-h1-VxU"/>
+                                                        <constraint firstAttribute="width" constant="60" id="i0q-Nl-qfr"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contrary to popular belief" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t95-ux-W2G">
+                                                    <rect key="frame" x="91" y="15" width="196" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acv-Gc-oVk">
+                                                    <rect key="frame" x="16" y="91" width="568" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="t95-ux-W2G" firstAttribute="leading" secondItem="6o9-Z3-Myy" secondAttribute="trailing" constant="15" id="6wr-6j-YF9"/>
+                                                <constraint firstItem="CFQ-kq-U5j" firstAttribute="bottom" secondItem="g4j-6c-fwK" secondAttribute="bottomMargin" id="9yS-EG-YNC"/>
+                                                <constraint firstItem="6o9-Z3-Myy" firstAttribute="top" secondItem="g4j-6c-fwK" secondAttribute="topMargin" constant="7" id="F5F-d4-kW0"/>
+                                                <constraint firstItem="acv-Gc-oVk" firstAttribute="leading" secondItem="g4j-6c-fwK" secondAttribute="leadingMargin" constant="8" id="Gg1-vB-wmx"/>
+                                                <constraint firstItem="CFQ-kq-U5j" firstAttribute="leading" secondItem="g4j-6c-fwK" secondAttribute="leadingMargin" id="Hdn-M2-bbp"/>
+                                                <constraint firstItem="acv-Gc-oVk" firstAttribute="top" secondItem="6o9-Z3-Myy" secondAttribute="bottom" constant="16" id="TCX-6x-jCJ"/>
+                                                <constraint firstItem="t95-ux-W2G" firstAttribute="top" secondItem="g4j-6c-fwK" secondAttribute="topMargin" constant="7" id="Zfn-1r-nL7"/>
+                                                <constraint firstItem="CFQ-kq-U5j" firstAttribute="trailing" secondItem="g4j-6c-fwK" secondAttribute="trailingMargin" id="oXk-EG-4SG"/>
+                                                <constraint firstItem="6o9-Z3-Myy" firstAttribute="leading" secondItem="g4j-6c-fwK" secondAttribute="leadingMargin" constant="8" id="v0v-sK-4OE"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="acv-Gc-oVk" secondAttribute="trailing" constant="8" id="xSX-cV-0Bp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="imgAvater" destination="6o9-Z3-Myy" id="Yww-q9-KyY"/>
+                                            <outlet property="imgCover" destination="CFQ-kq-U5j" id="bKN-XK-klI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="pOo-pf-jK6" id="SJG-pA-vrR"/>
+                                    <outlet property="delegate" destination="pOo-pf-jK6" id="7M3-ZR-iBE"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="6CR-Ia-5iM" secondAttribute="trailing" constant="-20" id="1O2-Z7-myE"/>
+                            <constraint firstItem="OAw-sh-hJN" firstAttribute="top" secondItem="6CR-Ia-5iM" secondAttribute="bottom" id="84Z-aE-l5d"/>
+                            <constraint firstItem="6CR-Ia-5iM" firstAttribute="top" secondItem="Jy5-AD-UjF" secondAttribute="topMargin" id="KDW-xw-Yfd"/>
+                            <constraint firstItem="6CR-Ia-5iM" firstAttribute="leading" secondItem="Jy5-AD-UjF" secondAttribute="leadingMargin" constant="-20" id="tCx-mU-Ykd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="x8Z-AQ-feX"/>
+                    <connections>
+                        <outlet property="tableView" destination="6CR-Ia-5iM" id="fpt-0V-HqV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQV-6o-enT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="467"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qLF-HC-Uah">
+            <objects>
+                <navigationController id="UMo-gA-XnJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sDi-ZM-GGj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pOo-pf-jK6" kind="relationship" relationship="rootViewController" id="89k-Ce-fxD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehW-sW-3cR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-315" y="481"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="crossroads-destiny-clip-4x3.jpg" width="600" height="450"/>
+        <image name="windows-xp-background-image-jpg.jpg" width="598" height="375"/>
+    </resources>
+</document>

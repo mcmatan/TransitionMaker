@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TransitionMakerExampleProject' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TransitionMakerExampleProject
+pod 'TransitionMaker', :path => '../'
+
+  target 'TransitionMakerExampleProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TransitionMakerExampleProjectUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TransitionMakerExampleProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TransitionMakerExampleProjectTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TransitionMakerExampleProjectUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TransitionMaker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>65CEC2FB6AB7357D42EDA6C1B898C6C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7157DAC59713D5489D8B4456ED86CAA6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB2B08D918C663D3CE955AF6673AEA53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF26D2F189FD62498CB73F7070F48757</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

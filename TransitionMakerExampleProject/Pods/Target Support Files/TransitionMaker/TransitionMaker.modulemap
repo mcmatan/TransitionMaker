@@ -1,0 +1,6 @@
+framework module TransitionMaker {
+  umbrella header "TransitionMaker-umbrella.h"
+
+  export *
+  module * { export * }
+}

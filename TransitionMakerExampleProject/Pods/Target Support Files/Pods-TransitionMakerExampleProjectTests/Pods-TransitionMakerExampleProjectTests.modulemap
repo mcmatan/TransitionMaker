@@ -1,0 +1,6 @@
+framework module Pods_TransitionMakerExampleProjectTests {
+  umbrella header "Pods-TransitionMakerExampleProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

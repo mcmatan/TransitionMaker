@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12096CF7B6639E01D220F1D4 /* Pods_TransitionMakerExampleProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453F9A9015028755930E0C33 /* Pods_TransitionMakerExampleProjectUITests.framework */; };
+		B34F16DB80210026F8FAFEF4 /* Pods_TransitionMakerExampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922B653CFEF1778C9039CDA7 /* Pods_TransitionMakerExampleProject.framework */; };
+		CA1393B60F8445DBF2E14215 /* Pods_TransitionMakerExampleProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F856DE50BC08D9CB268EAF52 /* Pods_TransitionMakerExampleProjectTests.framework */; };
+		EDF2F0251D7C091C0098FF27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2F0241D7C091C0098FF27 /* AppDelegate.swift */; };
+		EDF2F02A1D7C091C0098FF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF2F0281D7C091C0098FF27 /* Main.storyboard */; };
+		EDF2F02C1D7C091C0098FF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF2F02B1D7C091C0098FF27 /* Assets.xcassets */; };
+		EDF2F02F1D7C091C0098FF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF2F02D1D7C091C0098FF27 /* LaunchScreen.storyboard */; };
+		EDF2F03A1D7C091C0098FF27 /* TransitionMakerExampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2F0391D7C091C0098FF27 /* TransitionMakerExampleProjectTests.swift */; };
+		EDF2F0451D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2F0441D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.swift */; };
+		EDF2F0551D7C092C0098FF27 /* windows-xp-background-image-jpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDF2F0531D7C092C0098FF27 /* windows-xp-background-image-jpg.jpg */; };
+		EDF2F0561D7C092C0098FF27 /* crossroads-destiny-clip-4x3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDF2F0541D7C092C0098FF27 /* crossroads-destiny-clip-4x3.jpg */; };
+		EDF2F0581D7C09470098FF27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2F0571D7C09470098FF27 /* ViewController.swift */; };
+		EDF2F05C1D7C096C0098FF27 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2F0591D7C096C0098FF27 /* DetailsViewController.swift */; };
+		EDF2F05D1D7C096C0098FF27 /* NoStoryBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2F05A1D7C096C0098FF27 /* NoStoryBoardViewController.swift */; };
+		EDF2F05E1D7C096C0098FF27 /* ViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2F05B1D7C096C0098FF27 /* ViewControllerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF2F0361D7C091C0098FF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF2F0191D7C091C0098FF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF2F0201D7C091C0098FF27;
+			remoteInfo = TransitionMakerExampleProject;
+		};
+		EDF2F0411D7C091C0098FF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF2F0191D7C091C0098FF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF2F0201D7C091C0098FF27;
+			remoteInfo = TransitionMakerExampleProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F7BBC863A345CF9EB5D3243 /* Pods-TransitionMakerExampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionMakerExampleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionMakerExampleProject/Pods-TransitionMakerExampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		243843C59FDFB29AF354F17F /* Pods-TransitionMakerExampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionMakerExampleProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		453F9A9015028755930E0C33 /* Pods_TransitionMakerExampleProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionMakerExampleProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		472ECFAB27D6C5A88F47BAF4 /* Pods-TransitionMakerExampleProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionMakerExampleProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D8DA2CF0CB8B2757D090303 /* Pods-TransitionMakerExampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionMakerExampleProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionMakerExampleProjectUITests/Pods-TransitionMakerExampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7437DC7C5988AC49117BFBDB /* Pods-TransitionMakerExampleProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionMakerExampleProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionMakerExampleProjectUITests/Pods-TransitionMakerExampleProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		922B653CFEF1778C9039CDA7 /* Pods_TransitionMakerExampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionMakerExampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86952B68E8416F1D6E092C3 /* Pods-TransitionMakerExampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionMakerExampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionMakerExampleProject/Pods-TransitionMakerExampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		EDF2F0211D7C091C0098FF27 /* TransitionMakerExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionMakerExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF2F0241D7C091C0098FF27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF2F0291D7C091C0098FF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF2F02B1D7C091C0098FF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF2F02E1D7C091C0098FF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF2F0301D7C091C0098FF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF2F0351D7C091C0098FF27 /* TransitionMakerExampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionMakerExampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF2F0391D7C091C0098FF27 /* TransitionMakerExampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionMakerExampleProjectTests.swift; sourceTree = "<group>"; };
+		EDF2F03B1D7C091C0098FF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF2F0401D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionMakerExampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF2F0441D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionMakerExampleProjectUITests.swift; sourceTree = "<group>"; };
+		EDF2F0461D7C091C0098FF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF2F0531D7C092C0098FF27 /* windows-xp-background-image-jpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "windows-xp-background-image-jpg.jpg"; sourceTree = "<group>"; };
+		EDF2F0541D7C092C0098FF27 /* crossroads-destiny-clip-4x3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crossroads-destiny-clip-4x3.jpg"; sourceTree = "<group>"; };
+		EDF2F0571D7C09470098FF27 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF2F0591D7C096C0098FF27 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EDF2F05A1D7C096C0098FF27 /* NoStoryBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoStoryBoardViewController.swift; sourceTree = "<group>"; };
+		EDF2F05B1D7C096C0098FF27 /* ViewControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCell.swift; sourceTree = "<group>"; };
+		F856DE50BC08D9CB268EAF52 /* Pods_TransitionMakerExampleProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionMakerExampleProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF2F01E1D7C091C0098FF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34F16DB80210026F8FAFEF4 /* Pods_TransitionMakerExampleProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF2F0321D7C091C0098FF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1393B60F8445DBF2E14215 /* Pods_TransitionMakerExampleProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF2F03D1D7C091C0098FF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12096CF7B6639E01D220F1D4 /* Pods_TransitionMakerExampleProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065AB493D4A74709ED8E9F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				922B653CFEF1778C9039CDA7 /* Pods_TransitionMakerExampleProject.framework */,
+				F856DE50BC08D9CB268EAF52 /* Pods_TransitionMakerExampleProjectTests.framework */,
+				453F9A9015028755930E0C33 /* Pods_TransitionMakerExampleProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		193FE428E2E320E0E9A99C42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F7BBC863A345CF9EB5D3243 /* Pods-TransitionMakerExampleProject.debug.xcconfig */,
+				E86952B68E8416F1D6E092C3 /* Pods-TransitionMakerExampleProject.release.xcconfig */,
+				472ECFAB27D6C5A88F47BAF4 /* Pods-TransitionMakerExampleProjectTests.debug.xcconfig */,
+				243843C59FDFB29AF354F17F /* Pods-TransitionMakerExampleProjectTests.release.xcconfig */,
+				4D8DA2CF0CB8B2757D090303 /* Pods-TransitionMakerExampleProjectUITests.debug.xcconfig */,
+				7437DC7C5988AC49117BFBDB /* Pods-TransitionMakerExampleProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF2F0181D7C091C0098FF27 = {
+			isa = PBXGroup;
+			children = (
+				EDF2F0231D7C091C0098FF27 /* TransitionMakerExampleProject */,
+				EDF2F0381D7C091C0098FF27 /* TransitionMakerExampleProjectTests */,
+				EDF2F0431D7C091C0098FF27 /* TransitionMakerExampleProjectUITests */,
+				EDF2F0221D7C091C0098FF27 /* Products */,
+				193FE428E2E320E0E9A99C42 /* Pods */,
+				065AB493D4A74709ED8E9F0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF2F0221D7C091C0098FF27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF2F0211D7C091C0098FF27 /* TransitionMakerExampleProject.app */,
+				EDF2F0351D7C091C0098FF27 /* TransitionMakerExampleProjectTests.xctest */,
+				EDF2F0401D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF2F0231D7C091C0098FF27 /* TransitionMakerExampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				EDF2F0521D7C09220098FF27 /* Images */,
+				EDF2F0241D7C091C0098FF27 /* AppDelegate.swift */,
+				EDF2F0571D7C09470098FF27 /* ViewController.swift */,
+				EDF2F0591D7C096C0098FF27 /* DetailsViewController.swift */,
+				EDF2F05A1D7C096C0098FF27 /* NoStoryBoardViewController.swift */,
+				EDF2F05B1D7C096C0098FF27 /* ViewControllerCell.swift */,
+				EDF2F0281D7C091C0098FF27 /* Main.storyboard */,
+				EDF2F02B1D7C091C0098FF27 /* Assets.xcassets */,
+				EDF2F02D1D7C091C0098FF27 /* LaunchScreen.storyboard */,
+				EDF2F0301D7C091C0098FF27 /* Info.plist */,
+			);
+			path = TransitionMakerExampleProject;
+			sourceTree = "<group>";
+		};
+		EDF2F0381D7C091C0098FF27 /* TransitionMakerExampleProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF2F0391D7C091C0098FF27 /* TransitionMakerExampleProjectTests.swift */,
+				EDF2F03B1D7C091C0098FF27 /* Info.plist */,
+			);
+			path = TransitionMakerExampleProjectTests;
+			sourceTree = "<group>";
+		};
+		EDF2F0431D7C091C0098FF27 /* TransitionMakerExampleProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF2F0441D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.swift */,
+				EDF2F0461D7C091C0098FF27 /* Info.plist */,
+			);
+			path = TransitionMakerExampleProjectUITests;
+			sourceTree = "<group>";
+		};
+		EDF2F0521D7C09220098FF27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EDF2F0531D7C092C0098FF27 /* windows-xp-background-image-jpg.jpg */,
+				EDF2F0541D7C092C0098FF27 /* crossroads-destiny-clip-4x3.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF2F0201D7C091C0098FF27 /* TransitionMakerExampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF2F0491D7C091C0098FF27 /* Build configuration list for PBXNativeTarget "TransitionMakerExampleProject" */;
+			buildPhases = (
+				4837A9E54914BD0058F1981C /* 📦 Check Pods Manifest.lock */,
+				EDF2F01D1D7C091C0098FF27 /* Sources */,
+				EDF2F01E1D7C091C0098FF27 /* Frameworks */,
+				EDF2F01F1D7C091C0098FF27 /* Resources */,
+				A5310664FE49F15A72977DAA /* 📦 Embed Pods Frameworks */,
+				5DF0C9F4AB53FC8CECB383C1 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionMakerExampleProject;
+			productName = TransitionMakerExampleProject;
+			productReference = EDF2F0211D7C091C0098FF27 /* TransitionMakerExampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF2F0341D7C091C0098FF27 /* TransitionMakerExampleProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF2F04C1D7C091C0098FF27 /* Build configuration list for PBXNativeTarget "TransitionMakerExampleProjectTests" */;
+			buildPhases = (
+				3420903B67D642FA6B206BFD /* 📦 Check Pods Manifest.lock */,
+				EDF2F0311D7C091C0098FF27 /* Sources */,
+				EDF2F0321D7C091C0098FF27 /* Frameworks */,
+				EDF2F0331D7C091C0098FF27 /* Resources */,
+				C8E8EB19EF92730C13B7B090 /* 📦 Embed Pods Frameworks */,
+				6404ED74331A7E1B9EFB8F26 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF2F0371D7C091C0098FF27 /* PBXTargetDependency */,
+			);
+			name = TransitionMakerExampleProjectTests;
+			productName = TransitionMakerExampleProjectTests;
+			productReference = EDF2F0351D7C091C0098FF27 /* TransitionMakerExampleProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF2F03F1D7C091C0098FF27 /* TransitionMakerExampleProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF2F04F1D7C091C0098FF27 /* Build configuration list for PBXNativeTarget "TransitionMakerExampleProjectUITests" */;
+			buildPhases = (
+				44A111F7BB4BBD96295B3F2D /* 📦 Check Pods Manifest.lock */,
+				EDF2F03C1D7C091C0098FF27 /* Sources */,
+				EDF2F03D1D7C091C0098FF27 /* Frameworks */,
+				EDF2F03E1D7C091C0098FF27 /* Resources */,
+				426F26105760349FB8CF7C42 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF2F0421D7C091C0098FF27 /* PBXTargetDependency */,
+			);
+			name = TransitionMakerExampleProjectUITests;
+			productName = TransitionMakerExampleProjectUITests;
+			productReference = EDF2F0401D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF2F0191D7C091C0098FF27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jive;
+				TargetAttributes = {
+					EDF2F0201D7C091C0098FF27 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EDF2F0341D7C091C0098FF27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EDF2F0201D7C091C0098FF27;
+					};
+					EDF2F03F1D7C091C0098FF27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EDF2F0201D7C091C0098FF27;
+					};
+				};
+			};
+			buildConfigurationList = EDF2F01C1D7C091C0098FF27 /* Build configuration list for PBXProject "TransitionMakerExampleProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF2F0181D7C091C0098FF27;
+			productRefGroup = EDF2F0221D7C091C0098FF27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF2F0201D7C091C0098FF27 /* TransitionMakerExampleProject */,
+				EDF2F0341D7C091C0098FF27 /* TransitionMakerExampleProjectTests */,
+				EDF2F03F1D7C091C0098FF27 /* TransitionMakerExampleProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF2F01F1D7C091C0098FF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF2F02F1D7C091C0098FF27 /* LaunchScreen.storyboard in Resources */,
+				EDF2F0551D7C092C0098FF27 /* windows-xp-background-image-jpg.jpg in Resources */,
+				EDF2F02C1D7C091C0098FF27 /* Assets.xcassets in Resources */,
+				EDF2F02A1D7C091C0098FF27 /* Main.storyboard in Resources */,
+				EDF2F0561D7C092C0098FF27 /* crossroads-destiny-clip-4x3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF2F0331D7C091C0098FF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF2F03E1D7C091C0098FF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3420903B67D642FA6B206BFD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		426F26105760349FB8CF7C42 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerExampleProjectUITests/Pods-TransitionMakerExampleProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A111F7BB4BBD96295B3F2D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4837A9E54914BD0058F1981C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF0C9F4AB53FC8CECB383C1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerExampleProject/Pods-TransitionMakerExampleProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6404ED74331A7E1B9EFB8F26 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5310664FE49F15A72977DAA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerExampleProject/Pods-TransitionMakerExampleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E8EB19EF92730C13B7B090 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF2F01D1D7C091C0098FF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF2F05D1D7C096C0098FF27 /* NoStoryBoardViewController.swift in Sources */,
+				EDF2F0581D7C09470098FF27 /* ViewController.swift in Sources */,
+				EDF2F0251D7C091C0098FF27 /* AppDelegate.swift in Sources */,
+				EDF2F05E1D7C096C0098FF27 /* ViewControllerCell.swift in Sources */,
+				EDF2F05C1D7C096C0098FF27 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF2F0311D7C091C0098FF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF2F03A1D7C091C0098FF27 /* TransitionMakerExampleProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF2F03C1D7C091C0098FF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF2F0451D7C091C0098FF27 /* TransitionMakerExampleProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF2F0371D7C091C0098FF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF2F0201D7C091C0098FF27 /* TransitionMakerExampleProject */;
+			targetProxy = EDF2F0361D7C091C0098FF27 /* PBXContainerItemProxy */;
+		};
+		EDF2F0421D7C091C0098FF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF2F0201D7C091C0098FF27 /* TransitionMakerExampleProject */;
+			targetProxy = EDF2F0411D7C091C0098FF27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF2F0281D7C091C0098FF27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF2F0291D7C091C0098FF27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF2F02D1D7C091C0098FF27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF2F02E1D7C091C0098FF27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF2F0471D7C091C0098FF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF2F0481D7C091C0098FF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF2F04A1D7C091C0098FF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7BBC863A345CF9EB5D3243 /* Pods-TransitionMakerExampleProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransitionMakerExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerExampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF2F04B1D7C091C0098FF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86952B68E8416F1D6E092C3 /* Pods-TransitionMakerExampleProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransitionMakerExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerExampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDF2F04D1D7C091C0098FF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472ECFAB27D6C5A88F47BAF4 /* Pods-TransitionMakerExampleProjectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TransitionMakerExampleProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerExampleProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitionMakerExampleProject.app/TransitionMakerExampleProject";
+			};
+			name = Debug;
+		};
+		EDF2F04E1D7C091C0098FF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243843C59FDFB29AF354F17F /* Pods-TransitionMakerExampleProjectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TransitionMakerExampleProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerExampleProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitionMakerExampleProject.app/TransitionMakerExampleProject";
+			};
+			name = Release;
+		};
+		EDF2F0501D7C091C0098FF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8DA2CF0CB8B2757D090303 /* Pods-TransitionMakerExampleProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TransitionMakerExampleProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerExampleProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransitionMakerExampleProject;
+			};
+			name = Debug;
+		};
+		EDF2F0511D7C091C0098FF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7437DC7C5988AC49117BFBDB /* Pods-TransitionMakerExampleProjectUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TransitionMakerExampleProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerExampleProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransitionMakerExampleProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF2F01C1D7C091C0098FF27 /* Build configuration list for PBXProject "TransitionMakerExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF2F0471D7C091C0098FF27 /* Debug */,
+				EDF2F0481D7C091C0098FF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF2F0491D7C091C0098FF27 /* Build configuration list for PBXNativeTarget "TransitionMakerExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF2F04A1D7C091C0098FF27 /* Debug */,
+				EDF2F04B1D7C091C0098FF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF2F04C1D7C091C0098FF27 /* Build configuration list for PBXNativeTarget "TransitionMakerExampleProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF2F04D1D7C091C0098FF27 /* Debug */,
+				EDF2F04E1D7C091C0098FF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF2F04F1D7C091C0098FF27 /* Build configuration list for PBXNativeTarget "TransitionMakerExampleProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF2F0501D7C091C0098FF27 /* Debug */,
+				EDF2F0511D7C091C0098FF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF2F0191D7C091C0098FF27 /* Project object */;
+}
