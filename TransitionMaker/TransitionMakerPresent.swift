@@ -47,6 +47,7 @@ class TransitionMakerPresent : NSObject , UIViewControllerAnimatedTransitioning 
         for transitionObject in self.transitionObjects {
             self.animateTransitionObject(transitionObject, fromViewController: fromViewController!, toViewController: toViewController!, containerView: containerView!)
         }
+    
         
         UIView.animateWithDuration(self.duration, animations: {
             toViewController?.view.alpha = 1.0

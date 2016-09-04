@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class CrossfadeUpwardTransitionObject: NSObject, TransitionObject {
+@objc public class CrossfadeUpwardTransitionObject: NSObject, TransitionObject {
     internal var viewToAnimateTo :UIView
     internal var frameToAnimateTo : CGRect?
     internal var duration : NSTimeInterval
@@ -17,6 +17,11 @@ public class CrossfadeUpwardTransitionObject: NSObject, TransitionObject {
     public init(viewToAnimateTo: UIView , frameToAnimateTo : CGRect?, duration : NSTimeInterval) {
         self.viewToAnimateTo = viewToAnimateTo
         self.frameToAnimateTo = frameToAnimateTo
+        self.duration = duration
+    }
+    
+    public init(viewToAnimateTo: UIView , duration : NSTimeInterval) {
+        self.viewToAnimateTo = viewToAnimateTo
         self.duration = duration
     }
 }

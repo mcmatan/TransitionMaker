@@ -8,5 +8,5 @@
 
 import Foundation
 
-public protocol TransitionObject {
+@objc public protocol TransitionObject {
 }
