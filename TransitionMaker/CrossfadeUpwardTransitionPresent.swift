@@ -12,21 +12,35 @@ import UIKit
 class CrossfadeUpwardTransitionPresent: NSObject {
     static func animateTransitionObject(transitionObject : CrossfadeUpwardTransitionObject, fromViewController : UIViewController, toViewController : UIViewController, containerView : UIView, animationOptions: UIViewAnimationOptions, fadeOutAnimationDelay: NSTimeInterval) {
         
-//        var startingFrame = toViewController.view!.convertRect(transitionObject.viewToAnimateTo.frame, toView: containerView)
-//        if let isFrameToAnimateTo = transitionObject.frameToAnimateTo {
-//            startingFrame = isFrameToAnimateTo
-//        }
-        
         let upwardOffset: CGFloat = 30
         
-        var originalFrame = transitionObject.viewToAnimateTo.frame
-        var startingFrame = originalFrame
-        startingFrame.origin.y += upwardOffset
-        transitionObject.viewToAnimateTo.frame = startingFrame
+        containerView.bringSubviewToFront(transitionObject.viewToAnimateTo)
+        
+        var finalFrame = toViewController.view!.convertRect(transitionObject.viewToAnimateTo.frame, toView: containerView)
+        if let isFrameToAnimateTo = transitionObject.frameToAnimateTo {
+            finalFrame = isFrameToAnimateTo
+        }
+        
+        var startFrame = finalFrame
+        startFrame.origin.y += upwardOffset
+        
+        
+        var viewCopy = transitionObject.viewToAnimateTo.copyView()
+        containerView.addSubview(viewCopy)
+        viewCopy.frame = startFrame
+        viewCopy.alpha = 0
+        
+        transitionObject.viewToAnimateTo.alpha = 0
 
-        UIView.animateWithDuration(transitionObject.duration, delay: 0, options: animationOptions, animations: { 
-            transitionObject.viewToAnimateTo.frame = originalFrame
+        UIView.animateWithDuration(transitionObject.duration, delay: 0, options: animationOptions, animations: {
+            
+            viewCopy.frame = finalFrame
+            viewCopy.alpha = 1
             }) { (done) in
+                transitionObject.viewToAnimateTo.alpha = 1
+                afterDelay(0.2, completion: {
+                    viewCopy.removeFromSuperview()
+                })
         }
     }
 }

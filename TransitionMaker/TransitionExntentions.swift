@@ -29,9 +29,19 @@ extension UIViewController {
 
 extension UIImage {
     
-    func copyMe()->UIImage {
+    func copyImage()->UIImage {
         let newCgIm = CGImageCreateCopy(self.CGImage)
         let newImage = UIImage(CGImage: newCgIm!, scale: self.scale, orientation: self.imageOrientation)
         return newImage
+    }
+}
+
+extension UIView
+{
+    func copyView() -> UIView
+    {
+//        return NSKeyedUnarchiver.unarchiveObjectWithData(NSKeyedArchiver.archivedDataWithRootObject(self))! as! UIView
+        let viewCopy = self.snapshotViewAfterScreenUpdates(true)
+        return viewCopy
     }
 }

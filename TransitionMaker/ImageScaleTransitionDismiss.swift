@@ -58,12 +58,12 @@ class ImageScaleTransitionDismiss : NSObject  {
     static func getImageFromImageScaleTransitionObject(transitionObject : ImageScaleTransitionObject)->UIImageView {
         var viewToAnimateFromCopy : UIImageView!
         if let isImageInViewToAnimateFrom = transitionObject.viewToAnimateFrom.image {
-            viewToAnimateFromCopy = UIImageView(image: isImageInViewToAnimateFrom.copyMe())
+            viewToAnimateFromCopy = UIImageView(image: isImageInViewToAnimateFrom.copyImage())
             viewToAnimateFromCopy.contentMode = UIViewContentMode.ScaleAspectFill
         }
         
         if let isImageInViewToAnimateTo = transitionObject.viewToAnimateTo.image {
-            viewToAnimateFromCopy = UIImageView(image: isImageInViewToAnimateTo.copyMe())
+            viewToAnimateFromCopy = UIImageView(image: isImageInViewToAnimateTo.copyImage())
             viewToAnimateFromCopy.contentMode = UIViewContentMode.ScaleAspectFill
         }
         
