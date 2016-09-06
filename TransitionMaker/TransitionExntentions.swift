@@ -38,10 +38,16 @@ extension UIImage {
 
 extension UIView
 {
-    func copyView() -> UIView
-    {
-//        return NSKeyedUnarchiver.unarchiveObjectWithData(NSKeyedArchiver.archivedDataWithRootObject(self))! as! UIView
-        let viewCopy = self.snapshotViewAfterScreenUpdates(true)
-        return viewCopy
+    func copyView() -> UIView {
+
+        UIGraphicsBeginImageContextWithOptions(bounds.size, false,  0.0)
+        self.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        let imageView = UIImageView(frame: self.frame)
+        imageView.image = image
+        return imageView
+        
     }
 }

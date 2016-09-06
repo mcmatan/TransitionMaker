@@ -27,16 +27,15 @@ class CrossfadeUpwardTransitionDismiss {
         var viewCopy = transitionObject.viewToAnimateTo.copyView()
         containerView.addSubview(viewCopy)
         viewCopy.frame = finalFrame
-        viewCopy.alpha = 0
+        viewCopy.alpha = 1
         
-        transitionObject.viewToAnimateTo.alpha = 0
+        transitionObject.viewToAnimateTo.hidden = true
         
         UIView.animateWithDuration(transitionObject.duration, delay: 0, options: animationOptions, animations: {
             
             viewCopy.frame = startFrame
-            viewCopy.alpha = 1
+            viewCopy.alpha = 0
         }) { (done) in
-            transitionObject.viewToAnimateTo.alpha = 1
             viewCopy.removeFromSuperview()
         }
     }
