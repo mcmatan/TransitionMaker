@@ -33,7 +33,7 @@ class CrossfadeUpwardTransitionPresent: NSObject {
         
         
         transitionObject.viewToAnimateTo.hidden = true
-        viewCopy.alpha = 1
+        viewCopy.alpha = 0
 
         UIView.animateWithDuration(transitionObject.duration, delay: 0, options: animationOptions, animations: {
             

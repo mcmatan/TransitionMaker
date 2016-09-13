@@ -1,5 +1,5 @@
 PODS:
-  - TransitionMaker (0.0.1)
+  - TransitionMaker (0.0.2)
 
 DEPENDENCIES:
   - TransitionMaker (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TransitionMaker: 6f164e52f4f217b9035921cbb49f7cbc8d3be9ad
+  TransitionMaker: 23b5e0722e618e412b57bc7de32893e4c6007144
 
 PODFILE CHECKSUM: b3d080fe13d6e3caacda569208595f8467526d70
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.0.rc.1
