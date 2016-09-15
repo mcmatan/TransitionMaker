@@ -37,14 +37,14 @@ class TransitionMakerDismiss : NSObject , UIViewControllerAnimatedTransitioning 
         let containerView = transitionContext.containerView()
 
         if self.usingNavigationController == true {
-            containerView!.addSubview((toViewController!.view)!)
+            containerView.addSubview((toViewController!.view)!)
         }
 
         fromViewController!.view.alpha = 1
-        containerView!.addSubview((fromViewController!.view)!)
+        containerView.addSubview((fromViewController!.view)!)
 
         for transitionObject in self.transitionObjects {
-            self.animateTransitionObject(transitionObject, fromViewController: fromViewController!, toViewController: toViewController!, containerView: containerView!)
+            self.animateTransitionObject(transitionObject, fromViewController: fromViewController!, toViewController: toViewController!, containerView: containerView)
         }
 
         UIView.animateWithDuration(self.duration, animations: {

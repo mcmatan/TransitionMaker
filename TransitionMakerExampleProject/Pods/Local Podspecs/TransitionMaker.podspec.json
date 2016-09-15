@@ -1,6 +1,6 @@
 {
   "name": "TransitionMaker",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "TransitionMaker",
   "homepage": "https://github.com/mcmatan/TransitionMaker",
   "platforms": {
@@ -14,14 +14,10 @@
     "YOURNAME": "Matan"
   },
   "source": {
-    "git": "https://github.com/mcmatan/TransitionMaker.git"
+    "git": "https://github.com/idomizrachi/TransitionMaker.git",
+    "tag": "swift-2.3"
   },
   "frameworks": "UIKit",
-  "source_files": [
-    "TransitionMaker*",
-    "Vendor/*",
-    "Resource/*",
-    "TransitionMaker/*"
-  ],
+  "source_files": "TransitionMaker/**/*",
   "requires_arc": true
 }
