@@ -14,7 +14,7 @@ s.author            = {
 'YOURNAME' => 'Matan'
 }
 s.source            = {
-:git => 'https://github.com/idomizrachi/TransitionMaker.git',
+:git => 'https://github.com/mcmatan/TransitionMaker.git',
 :tag => s.version.to_s
 }
 s.framework = "UIKit"
