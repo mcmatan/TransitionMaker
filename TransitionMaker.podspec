@@ -14,8 +14,7 @@ s.author            = {
 'YOURNAME' => 'Matan'
 }
 s.source            = {
-:git => 'https://github.com/mcmatan/TransitionMaker.git',
-}
+:git => 'https://github.com/mcmatan/TransitionMaker.git', :tag => s.version.to_s }
 s.framework = "UIKit"
 s.source_files      = 'TransitionMaker/**/*.swift' , 'Vendor/**/*.swift', 'Resource/**/*.swift', 'TransitionMaker/**/*.swift'
 s.requires_arc      = true
