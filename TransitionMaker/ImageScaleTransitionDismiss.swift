@@ -18,7 +18,7 @@ class ImageScaleTransitionDismiss : NSObject  {
         transitionObject.viewToAnimateTo.hidden = true
         transitionObject.viewToAnimateFrom.hidden = true
 
-        let animationDuration = transitionObject.duration
+        _ = transitionObject.duration
         
         let viewToAnimateFromCopy = self.getImageFromImageScaleTransitionObject(transitionObject)
         viewToAnimateFromCopy.frame = self.startFrame(transitionObject, withNavigationController: usingNavigationController, controllerAnimatingFrom: fromViewController ,controllerAnimatingTo: toViewController)
@@ -85,7 +85,7 @@ class ImageScaleTransitionDismiss : NSObject  {
     
     static func endFrame(transitionObject : ImageScaleTransitionObject, containerView : UIView)->(frame : CGRect , hasSet : Bool) {
         var viewEndFrame = transitionObject.viewToAnimateFrom.frame
-        if let fromViewSuperExists = transitionObject.viewToAnimateFrom.superview {
+        if transitionObject.viewToAnimateFrom.superview != nil {
             viewEndFrame = transitionObject.viewToAnimateFrom.superview!.convertRect(transitionObject.viewToAnimateFrom.frame, toView: containerView)
             return (viewEndFrame, true)
         } else {
