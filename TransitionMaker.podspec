@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'TransitionMaker'
-s.version           = '0.0.2'
+s.version           = '0.0.4'
 s.summary           = 'TransitionMaker'
 s.homepage          = 'https://github.com/mcmatan/TransitionMaker'
 s.ios.deployment_target = '8.0'
@@ -15,9 +15,10 @@ s.author            = {
 }
 s.source            = {
 :git => 'https://github.com/mcmatan/TransitionMaker.git',
+:tag => s.version.to_s
 }
 s.framework = "UIKit"
-s.source_files      = 'TransitionMaker*' , 'Vendor/*', 'Resource/*', 'TransitionMaker/*'
+s.source_files      = 'TransitionMaker/**/*'
 s.requires_arc      = true
 
 end

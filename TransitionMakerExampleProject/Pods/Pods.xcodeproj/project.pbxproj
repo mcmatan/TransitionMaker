@@ -7,35 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A388F52F15E9EFE850FD2D1888D452B /* windows-xp-background-image-jpg.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 820B69D46153F269B0F1E01CBABB9D89 /* windows-xp-background-image-jpg.jpg */; };
-		0BD70228514A0D647A706F4E66EADBC7 /* TransitionMakerPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B864754382D7D0AADED784643F0AB /* TransitionMakerPresent.swift */; };
-		0C82AD37665300006B7AAAA2A1DF60DA /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28195A86D85825449D085624BC6B58CE /* Delay.swift */; };
-		11AF2B092F20F4A8549E407B943EFE49 /* TransitionMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6E48EE1E6E6831DEF44EBF7503CB5C /* TransitionMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		175B4F5F2B20A338478BDAECA821AA63 /* ImageScaleTransitionPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC2E098742E9F74BD9B965E50F74C1 /* ImageScaleTransitionPresent.swift */; };
-		186FC8A73A02D1847CC4DCAEACD3C3EC /* TransitionMakerDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDF52A3488A83A3A71C8DB4B879E51 /* TransitionMakerDismiss.swift */; };
-		1F505C8CCD8DB2B4E01383DA8A25B87D /* TransitionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697188D5EEBD1398292F67D9652A1A81 /* TransitionObject.swift */; };
-		5281AC7C48614F08E2A555CF5FEF8386 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AE7B19D0C590B6645A08FB5E427F2881 /* Info.plist */; };
+		11AF2B092F20F4A8549E407B943EFE49 /* TransitionMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 949EC5FD91B65C9012C971E0FD6083BF /* TransitionMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A6B4C1146BF110FCF65F76C8F53C44 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC88751E5C2EBE1B63E17872937172 /* Delay.swift */; };
+		352E0BE92E98E18BB424D72AF3F6CAE8 /* ImageScaleTransitionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9D5CD721EAF51806C10EE9045F5A7 /* ImageScaleTransitionObject.swift */; };
+		4083B6CC878BCC6273469930DC3E00EE /* TransitionMakerDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F082EAEF597730D7E0B8A5E70478282 /* TransitionMakerDismiss.swift */; };
+		4693FBBA4A9B988852FD38F84259DC89 /* TransitionExntentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B60C34C95C6A64CAE4324335964F8F /* TransitionExntentions.swift */; };
+		47863AD9CE227E9D3FC512501FB2A547 /* TransitionMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDAA3E8F1AE07F2D6E6557D85844A42 /* TransitionMaker-dummy.m */; };
 		52BFD8664F222FB9DEFD64419800482E /* Pods-TransitionMakerExampleProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F0B95FB7362A148DC12980D14F17DC /* Pods-TransitionMakerExampleProject-dummy.m */; };
 		5413B5DA602368C68937348A9C0521CB /* Pods-TransitionMakerExampleProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B15A21C763427280EA230D865E9E8 /* Pods-TransitionMakerExampleProjectUITests-dummy.m */; };
-		568B40DC3FE236A299862C3F4FF0D59E /* TransitionMaker.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 63EF089D5B88866C5E3130BE91FE8A74 /* TransitionMaker.podspec */; };
-		5BDA63EE50330411875331F8F86760AA /* CrossfadeUpwardTransitionDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23B6331E7C5E7D85F10DA0D4F9677A7 /* CrossfadeUpwardTransitionDismiss.swift */; };
-		622A119BF4B58EBB207CA06399E86784 /* TransitionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F083244453749810C19F2F82BBEE1 /* TransitionMaker.swift */; };
+		66A8FBFAA505CEE22C6454B88AA283B4 /* ImageScaleTransitionDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8505168F6CCDD3B3B6DAC77B9CA2C0 /* ImageScaleTransitionDismiss.swift */; };
 		68A64B1126E0791D85C110B9B7B6801E /* Pods-TransitionMakerExampleProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 579AC80CAC2832D3CCBC90E65DFF0A8F /* Pods-TransitionMakerExampleProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA000F173EE8F435C09FD1D8EE5E224 /* CrossfadeUpwardTransitionDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4189C312DA3FE24245E4ED143AD2EE1E /* CrossfadeUpwardTransitionDismiss.swift */; };
 		720BDB9DCE6FF5F4CC09E337E625718B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		7FDFF0AD3998B8F9BD2941CD57FBF85A /* TransitionMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF3E8A376E6E1BD3879CBDE75F1695D /* TransitionMaker-dummy.m */; };
-		81721567393EE42BA5BD5D338470CA74 /* crossroads-destiny-clip-4x3.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 91E4DC6ADCB980197E86C90E74735D55 /* crossroads-destiny-clip-4x3.jpg */; };
+		777C9C7AE144C81D44ADF8EE36C20894 /* TransitionMakerPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE8F858EE2A5FEFB7E9DD4C9C238099 /* TransitionMakerPresent.swift */; };
+		78D69A91B6D76C89E8A04600DF6B0AC7 /* TransitionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077FF36D171A1B3E10BC347FEDFCC96 /* TransitionObject.swift */; };
 		9EB4DBA662F069ECFF30EB0B6D40897A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		A90F01F476D08C5E5E80D9316D543720 /* ImageScaleTransitionDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3BF7360F8DB9CC6E0FD782C4FF3B1 /* ImageScaleTransitionDismiss.swift */; };
 		B9C051D0DED1F73D9FDE51E9699EF709 /* Pods-TransitionMakerExampleProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E358758589EDDD4B0EBB0B87FFD045D /* Pods-TransitionMakerExampleProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C229EF0BFDA9406E42D064683620D954 /* TransitionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D82FAAFB2F2050C9567EEF27E60641E /* TransitionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C229EF0BFDA9406E42D064683620D954 /* TransitionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E00D275B902C1203E479319702D34599 /* TransitionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C94F41816A7E785BA42815FF0B4D41E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
 		CAD3C90703E9CD1DBE0966F1B866AA9A /* Pods-TransitionMakerExampleProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 284E822173508283388BD71105E06918 /* Pods-TransitionMakerExampleProjectTests-dummy.m */; };
 		CC1161201AA8448E63CB3EE1578A15AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		CCFDE01CAE67F46D6FBC0B3ECC9031D0 /* TransitionExntentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7A11E653F42D51F7CEF12798352B3 /* TransitionExntentions.swift */; };
 		D0044FEF67D579C02997769CC5E7C0AA /* Pods-TransitionMakerExampleProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A080F5484AFFD87364A077D5822CBD /* Pods-TransitionMakerExampleProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D95F645B6AEA87D1E35BB1C7EBCEFA3A /* CrossfadeUpwardTransitionPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF149FC32CC49C48FED1EBCCC8847194 /* CrossfadeUpwardTransitionPresent.swift */; };
-		EB954FE2CF74A3CC5E07A8613BB97916 /* CrossfadeUpwardTransitionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C252865FA79E1D97D001D37BE09D89F4 /* CrossfadeUpwardTransitionObject.swift */; };
-		F198D4F59DCC5AA374C8FFF43B557E24 /* ImageScaleTransitionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59053F287718FB64EAF94ECD4300A8 /* ImageScaleTransitionObject.swift */; };
+		D60E9337394578FDAF7F5AF5AB742621 /* CrossfadeUpwardTransitionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A281888C8251070753A0B764C9EC3 /* CrossfadeUpwardTransitionObject.swift */; };
+		D86E42601C85F20D0F7E2F073F703128 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 04DCAF5ABB7C031A5469A7891D03331B /* Info.plist */; };
+		E4ECBBD65D40423D774717A4E207F685 /* ImageScaleTransitionPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779AAC3A4F2857A4AAF153E8D536441 /* ImageScaleTransitionPresent.swift */; };
+		E537E1B0C900D1E13562920A2DEE4744 /* TransitionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99A51833E296797842C5D79DB2BDAA0 /* TransitionMaker.swift */; };
+		F8FE4543B7538D8956B903EE1CDED8E6 /* CrossfadeUpwardTransitionPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83B6B4685E9261A0296846FDC68921 /* CrossfadeUpwardTransitionPresent.swift */; };
 		F968BE989D0AD36909C4423C46CE4450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,66 +47,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EC97519830FD190D4CF75BC6EAEE395 /* TransitionMaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionMaker.xcconfig; sourceTree = "<group>"; };
+		04DCAF5ABB7C031A5469A7891D03331B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDAA3E8F1AE07F2D6E6557D85844A42 /* TransitionMaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionMaker-dummy.m"; sourceTree = "<group>"; };
 		163C9D963846985143541ABE3317165F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		174DEAE078515AC0B821578406191054 /* Pods-TransitionMakerExampleProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransitionMakerExampleProjectTests.modulemap"; sourceTree = "<group>"; };
 		1BE1B0CB5A04FE14239198A1CD0C8461 /* Pods-TransitionMakerExampleProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransitionMakerExampleProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1D59053F287718FB64EAF94ECD4300A8 /* ImageScaleTransitionObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScaleTransitionObject.swift; sourceTree = "<group>"; };
 		1E589F79B6112DB130F03A5026C80F04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2417E64216A3BFFC6D4C4362CFB186DE /* Pods-TransitionMakerExampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionMakerExampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		28195A86D85825449D085624BC6B58CE /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		284E822173508283388BD71105E06918 /* Pods-TransitionMakerExampleProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransitionMakerExampleProjectTests-dummy.m"; sourceTree = "<group>"; };
-		2A34288720FCE75554DD6716D6927BA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BB3BF7360F8DB9CC6E0FD782C4FF3B1 /* ImageScaleTransitionDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScaleTransitionDismiss.swift; sourceTree = "<group>"; };
-		2D6E48EE1E6E6831DEF44EBF7503CB5C /* TransitionMaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionMaker-umbrella.h"; sourceTree = "<group>"; };
+		29B60C34C95C6A64CAE4324335964F8F /* TransitionExntentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionExntentions.swift; sourceTree = "<group>"; };
 		32891365641E884DFAA499F773CEAD49 /* TransitionMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransitionMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6D8BDC3DC0E2E83E90E9C361F978E6 /* Pods-TransitionMakerExampleProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionMakerExampleProject-frameworks.sh"; sourceTree = "<group>"; };
-		41F01201A4CB4E54D565069E511C5BC7 /* TransitionMaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TransitionMaker.modulemap; sourceTree = "<group>"; };
+		4189C312DA3FE24245E4ED143AD2EE1E /* CrossfadeUpwardTransitionDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrossfadeUpwardTransitionDismiss.swift; sourceTree = "<group>"; };
 		47CCE564C96D00C77A71491E5F1E2C2D /* Pods-TransitionMakerExampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionMakerExampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B93486E94378A9E5B1F542CDB63452B /* Pods_TransitionMakerExampleProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionMakerExampleProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DABF057DC6CAAA947D0C74F93D1B121 /* TransitionMaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionMaker-prefix.pch"; sourceTree = "<group>"; };
 		4F2EA1E3855891D2D14EBBA5584C32AD /* Pods-TransitionMakerExampleProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransitionMakerExampleProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		56AE526F66582A7DBC38C9E12372F970 /* Pods-TransitionMakerExampleProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransitionMakerExampleProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		579AC80CAC2832D3CCBC90E65DFF0A8F /* Pods-TransitionMakerExampleProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransitionMakerExampleProject-umbrella.h"; sourceTree = "<group>"; };
 		59A38BE7937A1D1D4B043CDA2E79354B /* Pods-TransitionMakerExampleProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransitionMakerExampleProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A92165C3FEC60650B54A07EF867A74E /* Pods-TransitionMakerExampleProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransitionMakerExampleProjectUITests.modulemap"; sourceTree = "<group>"; };
+		5EFC88751E5C2EBE1B63E17872937172 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		5F8DCBAC5E4001FD328DD3D99688F97D /* Pods_TransitionMakerExampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionMakerExampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D056FEB0DEBC47882F59E357E6C233 /* Pods-TransitionMakerExampleProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransitionMakerExampleProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		63EF089D5B88866C5E3130BE91FE8A74 /* TransitionMaker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = TransitionMaker.podspec; sourceTree = "<group>"; };
 		685510329D7B9E499B0B08512225E112 /* Pods-TransitionMakerExampleProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionMakerExampleProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
-		697188D5EEBD1398292F67D9652A1A81 /* TransitionObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionObject.swift; sourceTree = "<group>"; };
 		6E358758589EDDD4B0EBB0B87FFD045D /* Pods-TransitionMakerExampleProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransitionMakerExampleProjectTests-umbrella.h"; sourceTree = "<group>"; };
-		73E7A11E653F42D51F7CEF12798352B3 /* TransitionExntentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionExntentions.swift; sourceTree = "<group>"; };
 		7651164FEDCDA37416D3E97107D06E1E /* Pods-TransitionMakerExampleProjectTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionMakerExampleProjectTests-resources.sh"; sourceTree = "<group>"; };
 		7CE9282AC26B892883ED5010817916A0 /* Pods_TransitionMakerExampleProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionMakerExampleProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FDC2E098742E9F74BD9B965E50F74C1 /* ImageScaleTransitionPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScaleTransitionPresent.swift; sourceTree = "<group>"; };
-		820B69D46153F269B0F1E01CBABB9D89 /* windows-xp-background-image-jpg.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = "windows-xp-background-image-jpg.jpg"; sourceTree = "<group>"; };
-		838B864754382D7D0AADED784643F0AB /* TransitionMakerPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionMakerPresent.swift; sourceTree = "<group>"; };
-		84DDF52A3488A83A3A71C8DB4B879E51 /* TransitionMakerDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionMakerDismiss.swift; sourceTree = "<group>"; };
-		91E4DC6ADCB980197E86C90E74735D55 /* crossroads-destiny-clip-4x3.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = "crossroads-destiny-clip-4x3.jpg"; sourceTree = "<group>"; };
+		8F082EAEF597730D7E0B8A5E70478282 /* TransitionMakerDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionMakerDismiss.swift; sourceTree = "<group>"; };
+		8F5A281888C8251070753A0B764C9EC3 /* CrossfadeUpwardTransitionObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrossfadeUpwardTransitionObject.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949EC5FD91B65C9012C971E0FD6083BF /* TransitionMaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionMaker-umbrella.h"; sourceTree = "<group>"; };
 		965039070E2DDB02CBE08FCEC5CA5E80 /* Pods-TransitionMakerExampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionMakerExampleProject.debug.xcconfig"; sourceTree = "<group>"; };
-		9D82FAAFB2F2050C9567EEF27E60641E /* TransitionMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TransitionMaker.h; sourceTree = "<group>"; };
+		975838D278F1C2867F93A17A8E3226BD /* TransitionMaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TransitionMaker.modulemap; sourceTree = "<group>"; };
+		999AF9C402D237C12E233C7445090B1C /* TransitionMaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionMaker.xcconfig; sourceTree = "<group>"; };
+		9CE8F858EE2A5FEFB7E9DD4C9C238099 /* TransitionMakerPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionMakerPresent.swift; sourceTree = "<group>"; };
+		A077FF36D171A1B3E10BC347FEDFCC96 /* TransitionObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionObject.swift; sourceTree = "<group>"; };
 		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AE7B19D0C590B6645A08FB5E427F2881 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99A51833E296797842C5D79DB2BDAA0 /* TransitionMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionMaker.swift; sourceTree = "<group>"; };
 		B4990EB21A7E276D644FDC341BE18E48 /* Pods-TransitionMakerExampleProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionMakerExampleProject-resources.sh"; sourceTree = "<group>"; };
+		BB8505168F6CCDD3B3B6DAC77B9CA2C0 /* ImageScaleTransitionDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScaleTransitionDismiss.swift; sourceTree = "<group>"; };
+		BC83B6B4685E9261A0296846FDC68921 /* CrossfadeUpwardTransitionPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrossfadeUpwardTransitionPresent.swift; sourceTree = "<group>"; };
 		C0828C71465EC4B4808B63EFBE279052 /* Pods-TransitionMakerExampleProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionMakerExampleProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
 		C0A050F566C0CE64A558AF5462445A1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0A080F5484AFFD87364A077D5822CBD /* Pods-TransitionMakerExampleProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransitionMakerExampleProjectUITests-umbrella.h"; sourceTree = "<group>"; };
-		C252865FA79E1D97D001D37BE09D89F4 /* CrossfadeUpwardTransitionObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrossfadeUpwardTransitionObject.swift; sourceTree = "<group>"; };
 		C3F0B95FB7362A148DC12980D14F17DC /* Pods-TransitionMakerExampleProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransitionMakerExampleProject-dummy.m"; sourceTree = "<group>"; };
-		CCF3E8A376E6E1BD3879CBDE75F1695D /* TransitionMaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionMaker-dummy.m"; sourceTree = "<group>"; };
-		CF149FC32CC49C48FED1EBCCC8847194 /* CrossfadeUpwardTransitionPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrossfadeUpwardTransitionPresent.swift; sourceTree = "<group>"; };
-		D54C41D75B78A302FB2DF31BBA0AE9FD /* TransitionMaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionMaker-prefix.pch"; sourceTree = "<group>"; };
 		D5A640CB2DCD5546E69DD6E04D038975 /* Pods-TransitionMakerExampleProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionMakerExampleProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D796395D84A1EA5B930BF07E590BFBC0 /* Pods-TransitionMakerExampleProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransitionMakerExampleProject.modulemap"; sourceTree = "<group>"; };
 		D93B15A21C763427280EA230D865E9E8 /* Pods-TransitionMakerExampleProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransitionMakerExampleProjectUITests-dummy.m"; sourceTree = "<group>"; };
 		DA447D753CEA6E07C8B582C5F8CB6F3C /* Pods-TransitionMakerExampleProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransitionMakerExampleProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDC9D5CD721EAF51806C10EE9045F5A7 /* ImageScaleTransitionObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScaleTransitionObject.swift; sourceTree = "<group>"; };
+		E00D275B902C1203E479319702D34599 /* TransitionMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TransitionMaker.h; sourceTree = "<group>"; };
 		E09E4889FF8C6C19F696D52218AA5143 /* Pods-TransitionMakerExampleProjectUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionMakerExampleProjectUITests-resources.sh"; sourceTree = "<group>"; };
+		E59CC07EF11321555EBC97D7BF3D9324 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E779AAC3A4F2857A4AAF153E8D536441 /* ImageScaleTransitionPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScaleTransitionPresent.swift; sourceTree = "<group>"; };
 		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E8669FFAE0B6CCE89B61BFBE7348BA9A /* Pods-TransitionMakerExampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionMakerExampleProject.release.xcconfig"; sourceTree = "<group>"; };
 		ED5C5B9A54CD5C4FD2946CB4EE028E54 /* Pods-TransitionMakerExampleProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionMakerExampleProjectTests-frameworks.sh"; sourceTree = "<group>"; };
-		F23B6331E7C5E7D85F10DA0D4F9677A7 /* CrossfadeUpwardTransitionDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrossfadeUpwardTransitionDismiss.swift; sourceTree = "<group>"; };
-		FE9F083244453749810C19F2F82BBEE1 /* TransitionMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,12 +161,18 @@
 			path = "Target Support Files/Pods-TransitionMakerExampleProjectTests";
 			sourceTree = "<group>";
 		};
-		11F167D44647A6A53748705EB602F198 /* Development Pods */ = {
+		3299EFC555845196D1C5190E0396D55A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E7151DE2D78D2F4358F53520FF75973 /* TransitionMaker */,
+				E59CC07EF11321555EBC97D7BF3D9324 /* Info.plist */,
+				975838D278F1C2867F93A17A8E3226BD /* TransitionMaker.modulemap */,
+				999AF9C402D237C12E233C7445090B1C /* TransitionMaker.xcconfig */,
+				0FDAA3E8F1AE07F2D6E6557D85844A42 /* TransitionMaker-dummy.m */,
+				4DABF057DC6CAAA947D0C74F93D1B121 /* TransitionMaker-prefix.pch */,
+				949EC5FD91B65C9012C971E0FD6083BF /* TransitionMaker-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "TransitionMakerExampleProject/Pods/Target Support Files/TransitionMaker";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -181,6 +181,27 @@
 				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45D206324F3BEE008A0D1CE50B53A037 /* TransitionMaker */ = {
+			isa = PBXGroup;
+			children = (
+				4189C312DA3FE24245E4ED143AD2EE1E /* CrossfadeUpwardTransitionDismiss.swift */,
+				8F5A281888C8251070753A0B764C9EC3 /* CrossfadeUpwardTransitionObject.swift */,
+				BC83B6B4685E9261A0296846FDC68921 /* CrossfadeUpwardTransitionPresent.swift */,
+				5EFC88751E5C2EBE1B63E17872937172 /* Delay.swift */,
+				BB8505168F6CCDD3B3B6DAC77B9CA2C0 /* ImageScaleTransitionDismiss.swift */,
+				DDC9D5CD721EAF51806C10EE9045F5A7 /* ImageScaleTransitionObject.swift */,
+				E779AAC3A4F2857A4AAF153E8D536441 /* ImageScaleTransitionPresent.swift */,
+				04DCAF5ABB7C031A5469A7891D03331B /* Info.plist */,
+				29B60C34C95C6A64CAE4324335964F8F /* TransitionExntentions.swift */,
+				E00D275B902C1203E479319702D34599 /* TransitionMaker.h */,
+				A99A51833E296797842C5D79DB2BDAA0 /* TransitionMaker.swift */,
+				8F082EAEF597730D7E0B8A5E70478282 /* TransitionMakerDismiss.swift */,
+				9CE8F858EE2A5FEFB7E9DD4C9C238099 /* TransitionMakerPresent.swift */,
+				A077FF36D171A1B3E10BC347FEDFCC96 /* TransitionObject.swift */,
+			);
+			path = TransitionMaker;
 			sourceTree = "<group>";
 		};
 		57CABBD4E99F1AAECED40F78BC4C486E /* Targets Support Files */ = {
@@ -193,26 +214,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6E7151DE2D78D2F4358F53520FF75973 /* TransitionMaker */ = {
-			isa = PBXGroup;
-			children = (
-				63EF089D5B88866C5E3130BE91FE8A74 /* TransitionMaker.podspec */,
-				B0C501AF41B5579B4804CFD727E780C8 /* Support Files */,
-				DEC9DB87D837529F2314286287233198 /* TransitionMaker */,
-			);
-			name = TransitionMaker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				11F167D44647A6A53748705EB602F198 /* Development Pods */,
+				8000A9FFCEB24A2FB31E46EB915287DF /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				B3146F6FCED5FDF9FC74C12B7063F710 /* Products */,
 				57CABBD4E99F1AAECED40F78BC4C486E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8000A9FFCEB24A2FB31E46EB915287DF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A3088A19F21CABA1F2F221FD536A6 /* TransitionMaker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9D6AB121CE834B8571C5B876507813D5 /* Pods-TransitionMakerExampleProject */ = {
@@ -233,18 +251,14 @@
 			path = "Target Support Files/Pods-TransitionMakerExampleProject";
 			sourceTree = "<group>";
 		};
-		B0C501AF41B5579B4804CFD727E780C8 /* Support Files */ = {
+		AC6A3088A19F21CABA1F2F221FD536A6 /* TransitionMaker */ = {
 			isa = PBXGroup;
 			children = (
-				2A34288720FCE75554DD6716D6927BA4 /* Info.plist */,
-				41F01201A4CB4E54D565069E511C5BC7 /* TransitionMaker.modulemap */,
-				0EC97519830FD190D4CF75BC6EAEE395 /* TransitionMaker.xcconfig */,
-				CCF3E8A376E6E1BD3879CBDE75F1695D /* TransitionMaker-dummy.m */,
-				D54C41D75B78A302FB2DF31BBA0AE9FD /* TransitionMaker-prefix.pch */,
-				2D6E48EE1E6E6831DEF44EBF7503CB5C /* TransitionMaker-umbrella.h */,
+				3299EFC555845196D1C5190E0396D55A /* Support Files */,
+				45D206324F3BEE008A0D1CE50B53A037 /* TransitionMaker */,
 			);
-			name = "Support Files";
-			path = "TransitionMakerExampleProject/Pods/Target Support Files/TransitionMaker";
+			name = TransitionMaker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B3146F6FCED5FDF9FC74C12B7063F710 /* Products */ = {
@@ -256,29 +270,6 @@
 				32891365641E884DFAA499F773CEAD49 /* TransitionMaker.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DEC9DB87D837529F2314286287233198 /* TransitionMaker */ = {
-			isa = PBXGroup;
-			children = (
-				F23B6331E7C5E7D85F10DA0D4F9677A7 /* CrossfadeUpwardTransitionDismiss.swift */,
-				C252865FA79E1D97D001D37BE09D89F4 /* CrossfadeUpwardTransitionObject.swift */,
-				CF149FC32CC49C48FED1EBCCC8847194 /* CrossfadeUpwardTransitionPresent.swift */,
-				91E4DC6ADCB980197E86C90E74735D55 /* crossroads-destiny-clip-4x3.jpg */,
-				28195A86D85825449D085624BC6B58CE /* Delay.swift */,
-				2BB3BF7360F8DB9CC6E0FD782C4FF3B1 /* ImageScaleTransitionDismiss.swift */,
-				1D59053F287718FB64EAF94ECD4300A8 /* ImageScaleTransitionObject.swift */,
-				7FDC2E098742E9F74BD9B965E50F74C1 /* ImageScaleTransitionPresent.swift */,
-				AE7B19D0C590B6645A08FB5E427F2881 /* Info.plist */,
-				73E7A11E653F42D51F7CEF12798352B3 /* TransitionExntentions.swift */,
-				9D82FAAFB2F2050C9567EEF27E60641E /* TransitionMaker.h */,
-				FE9F083244453749810C19F2F82BBEE1 /* TransitionMaker.swift */,
-				84DDF52A3488A83A3A71C8DB4B879E51 /* TransitionMakerDismiss.swift */,
-				838B864754382D7D0AADED784643F0AB /* TransitionMakerPresent.swift */,
-				697188D5EEBD1398292F67D9652A1A81 /* TransitionObject.swift */,
-				820B69D46153F269B0F1E01CBABB9D89 /* windows-xp-background-image-jpg.jpg */,
-			);
-			path = TransitionMaker;
 			sourceTree = "<group>";
 		};
 		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
@@ -368,7 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6902BEDDA8C9F6868B91F68AA949F8D6 /* Build configuration list for PBXNativeTarget "TransitionMaker" */;
 			buildPhases = (
-				062F7E4F7F2298B4C5450CD9D3985CD9 /* Sources */,
+				8186BF96A879210C53AA48BB87AAE58B /* Sources */,
 				8534C0D570ED415B4A5DCCB25BF2B83E /* Frameworks */,
 				D2C14E0BD39BA8A2ACBDF10BC9C98B41 /* Headers */,
 			);
@@ -446,30 +437,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		062F7E4F7F2298B4C5450CD9D3985CD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BDA63EE50330411875331F8F86760AA /* CrossfadeUpwardTransitionDismiss.swift in Sources */,
-				EB954FE2CF74A3CC5E07A8613BB97916 /* CrossfadeUpwardTransitionObject.swift in Sources */,
-				D95F645B6AEA87D1E35BB1C7EBCEFA3A /* CrossfadeUpwardTransitionPresent.swift in Sources */,
-				81721567393EE42BA5BD5D338470CA74 /* crossroads-destiny-clip-4x3.jpg in Sources */,
-				0C82AD37665300006B7AAAA2A1DF60DA /* Delay.swift in Sources */,
-				A90F01F476D08C5E5E80D9316D543720 /* ImageScaleTransitionDismiss.swift in Sources */,
-				F198D4F59DCC5AA374C8FFF43B557E24 /* ImageScaleTransitionObject.swift in Sources */,
-				175B4F5F2B20A338478BDAECA821AA63 /* ImageScaleTransitionPresent.swift in Sources */,
-				5281AC7C48614F08E2A555CF5FEF8386 /* Info.plist in Sources */,
-				CCFDE01CAE67F46D6FBC0B3ECC9031D0 /* TransitionExntentions.swift in Sources */,
-				7FDFF0AD3998B8F9BD2941CD57FBF85A /* TransitionMaker-dummy.m in Sources */,
-				568B40DC3FE236A299862C3F4FF0D59E /* TransitionMaker.podspec in Sources */,
-				622A119BF4B58EBB207CA06399E86784 /* TransitionMaker.swift in Sources */,
-				186FC8A73A02D1847CC4DCAEACD3C3EC /* TransitionMakerDismiss.swift in Sources */,
-				0BD70228514A0D647A706F4E66EADBC7 /* TransitionMakerPresent.swift in Sources */,
-				1F505C8CCD8DB2B4E01383DA8A25B87D /* TransitionObject.swift in Sources */,
-				0A388F52F15E9EFE850FD2D1888D452B /* windows-xp-background-image-jpg.jpg in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		07BFBC910C9CFE395AA65153FFA9EF73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -483,6 +450,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BFD8664F222FB9DEFD64419800482E /* Pods-TransitionMakerExampleProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8186BF96A879210C53AA48BB87AAE58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA000F173EE8F435C09FD1D8EE5E224 /* CrossfadeUpwardTransitionDismiss.swift in Sources */,
+				D60E9337394578FDAF7F5AF5AB742621 /* CrossfadeUpwardTransitionObject.swift in Sources */,
+				F8FE4543B7538D8956B903EE1CDED8E6 /* CrossfadeUpwardTransitionPresent.swift in Sources */,
+				17A6B4C1146BF110FCF65F76C8F53C44 /* Delay.swift in Sources */,
+				66A8FBFAA505CEE22C6454B88AA283B4 /* ImageScaleTransitionDismiss.swift in Sources */,
+				352E0BE92E98E18BB424D72AF3F6CAE8 /* ImageScaleTransitionObject.swift in Sources */,
+				E4ECBBD65D40423D774717A4E207F685 /* ImageScaleTransitionPresent.swift in Sources */,
+				D86E42601C85F20D0F7E2F073F703128 /* Info.plist in Sources */,
+				4693FBBA4A9B988852FD38F84259DC89 /* TransitionExntentions.swift in Sources */,
+				47863AD9CE227E9D3FC512501FB2A547 /* TransitionMaker-dummy.m in Sources */,
+				E537E1B0C900D1E13562920A2DEE4744 /* TransitionMaker.swift in Sources */,
+				4083B6CC878BCC6273469930DC3E00EE /* TransitionMakerDismiss.swift in Sources */,
+				777C9C7AE144C81D44ADF8EE36C20894 /* TransitionMakerPresent.swift in Sources */,
+				78D69A91B6D76C89E8A04600DF6B0AC7 /* TransitionObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +538,111 @@
 			};
 			name = Debug;
 		};
-		2AD3D08CC6BACBBABB15CA125F8ED1B7 /* Debug */ = {
+		5FBF2A9907216AC6523C435B7E7AF299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685510329D7B9E499B0B08512225E112 /* Pods-TransitionMakerExampleProjectUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectUITests/Pods-TransitionMakerExampleProjectUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionMakerExampleProjectUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		609F47F005420927F8F0CF131C14E65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999AF9C402D237C12E233C7445090B1C /* TransitionMaker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionMaker/TransitionMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransitionMaker/TransitionMaker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TransitionMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731AFA8F98632D3E2C59860A7A5403B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8669FFAE0B6CCE89B61BFBE7348BA9A /* Pods-TransitionMakerExampleProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProject/Pods-TransitionMakerExampleProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionMakerExampleProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F21761298B873923BE5102536131061 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 965039070E2DDB02CBE08FCEC5CA5E80 /* Pods-TransitionMakerExampleProject.debug.xcconfig */;
 			buildSettings = {
@@ -580,111 +672,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3A3F8460DEEEDDAF55AE43888B7AC9E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2417E64216A3BFFC6D4C4362CFB186DE /* Pods-TransitionMakerExampleProjectTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TransitionMakerExampleProjectTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		58967CB9FD5D4D22D0D6915CF8F9F719 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 685510329D7B9E499B0B08512225E112 /* Pods-TransitionMakerExampleProjectUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectUITests/Pods-TransitionMakerExampleProjectUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TransitionMakerExampleProjectUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5C0F0A2071352670654C905481379798 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A640CB2DCD5546E69DD6E04D038975 /* Pods-TransitionMakerExampleProjectTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TransitionMakerExampleProjectTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -731,9 +719,9 @@
 			};
 			name = Release;
 		};
-		92C9B0636C2D9A36C397E37AB42CD145 /* Release */ = {
+		9991FC52586AEB54991C1523B95DF602 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EC97519830FD190D4CF75BC6EAEE395 /* TransitionMaker.xcconfig */;
+			baseConfigurationReference = 2417E64216A3BFFC6D4C4362CFB186DE /* Pods-TransitionMakerExampleProjectTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -746,23 +734,97 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TransitionMaker/TransitionMaker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TransitionMaker/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TransitionMaker/TransitionMaker.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TransitionMaker;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionMakerExampleProjectTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A8EC64F6C502D1328000944F38270494 /* Debug */ = {
+		B5B7B7F5D510A0E76E5D5B0E40E7FEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999AF9C402D237C12E233C7445090B1C /* TransitionMaker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionMaker/TransitionMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransitionMaker/TransitionMaker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TransitionMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C667416DC305EB750B521306D3C0BD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A640CB2DCD5546E69DD6E04D038975 /* Pods-TransitionMakerExampleProjectTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProjectTests/Pods-TransitionMakerExampleProjectTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionMakerExampleProjectTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD841E215B92974C7110CC2FDA853644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47CCE564C96D00C77A71491E5F1E2C2D /* Pods-TransitionMakerExampleProjectUITests.debug.xcconfig */;
 			buildSettings = {
@@ -791,73 +853,7 @@
 				PRODUCT_NAME = Pods_TransitionMakerExampleProjectUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C4D5641A4E3D655E74FD223FDD1AEF74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8669FFAE0B6CCE89B61BFBE7348BA9A /* Pods-TransitionMakerExampleProject.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TransitionMakerExampleProject/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TransitionMakerExampleProject/Pods-TransitionMakerExampleProject.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TransitionMakerExampleProject;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FC8F874F410A2D5E8BDE22ED520B5D1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EC97519830FD190D4CF75BC6EAEE395 /* TransitionMaker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TransitionMaker/TransitionMaker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TransitionMaker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TransitionMaker/TransitionMaker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TransitionMaker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -879,8 +875,8 @@
 		384D69946484F3E3D6AE8EDDF8AE9DF5 /* Build configuration list for PBXNativeTarget "Pods-TransitionMakerExampleProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C0F0A2071352670654C905481379798 /* Debug */,
-				3A3F8460DEEEDDAF55AE43888B7AC9E9 /* Release */,
+				C667416DC305EB750B521306D3C0BD7F /* Debug */,
+				9991FC52586AEB54991C1523B95DF602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -888,8 +884,8 @@
 		6902BEDDA8C9F6868B91F68AA949F8D6 /* Build configuration list for PBXNativeTarget "TransitionMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC8F874F410A2D5E8BDE22ED520B5D1B /* Debug */,
-				92C9B0636C2D9A36C397E37AB42CD145 /* Release */,
+				B5B7B7F5D510A0E76E5D5B0E40E7FEA8 /* Debug */,
+				609F47F005420927F8F0CF131C14E65F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -897,8 +893,8 @@
 		691DA18C24AA967530535C4473C82BE2 /* Build configuration list for PBXNativeTarget "Pods-TransitionMakerExampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AD3D08CC6BACBBABB15CA125F8ED1B7 /* Debug */,
-				C4D5641A4E3D655E74FD223FDD1AEF74 /* Release */,
+				7F21761298B873923BE5102536131061 /* Debug */,
+				731AFA8F98632D3E2C59860A7A5403B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -906,8 +902,8 @@
 		A8D04CB7025D704D1E86D1DCCD2287F0 /* Build configuration list for PBXNativeTarget "Pods-TransitionMakerExampleProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8EC64F6C502D1328000944F38270494 /* Debug */,
-				58967CB9FD5D4D22D0D6915CF8F9F719 /* Release */,
+				FD841E215B92974C7110CC2FDA853644 /* Debug */,
+				5FBF2A9907216AC6523C435B7E7AF299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
