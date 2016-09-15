@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'TransitionMaker'
-s.version           = '0.0.3'
+s.version           = '0.0.4'
 s.summary           = 'TransitionMaker'
 s.homepage          = 'https://github.com/mcmatan/TransitionMaker'
 s.ios.deployment_target = '8.0'
