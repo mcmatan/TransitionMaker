@@ -27,7 +27,7 @@ class CrossfadeUpwardTransitionPresent: NSObject {
         transitionObject.viewToAnimateTo.setNeedsDisplay()
         transitionObject.viewToAnimateTo.setNeedsLayout()
         
-        var viewCopy = transitionObject.viewToAnimateTo.copyView()
+        let viewCopy = transitionObject.viewToAnimateTo.copyView()
         containerView.addSubview(viewCopy)
         viewCopy.frame = startFrame
         

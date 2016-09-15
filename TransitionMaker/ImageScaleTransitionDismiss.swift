@@ -20,9 +20,9 @@ class ImageScaleTransitionDismiss : NSObject  {
 
         let animationDuration = transitionObject.duration
         
-        var viewToAnimateFromCopy = self.getImageFromImageScaleTransitionObject(transitionObject)
+        let viewToAnimateFromCopy = self.getImageFromImageScaleTransitionObject(transitionObject)
         viewToAnimateFromCopy.frame = self.startFrame(transitionObject, withNavigationController: usingNavigationController, controllerAnimatingFrom: fromViewController ,controllerAnimatingTo: toViewController)
-        var viewEndFrame = self.endFrame(transitionObject, containerView: containerView).frame
+        let viewEndFrame = self.endFrame(transitionObject, containerView: containerView).frame
         if self.endFrame(transitionObject, containerView: containerView).hasSet == false {
             viewToAnimateFromCopy.hidden = true
         }

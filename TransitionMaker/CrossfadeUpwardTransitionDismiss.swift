@@ -24,7 +24,7 @@ class CrossfadeUpwardTransitionDismiss {
         startFrame.origin.y += upwardOffset
         
         
-        var viewCopy = transitionObject.viewToAnimateTo.copyView()
+        let viewCopy = transitionObject.viewToAnimateTo.copyView()
         containerView.addSubview(viewCopy)
         viewCopy.frame = finalFrame
         viewCopy.alpha = 1
