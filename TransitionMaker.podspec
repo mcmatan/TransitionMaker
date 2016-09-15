@@ -17,7 +17,7 @@ s.source            = {
 :git => 'https://github.com/mcmatan/TransitionMaker.git',
 }
 s.framework = "UIKit"
-s.source_files      = 'TransitionMaker*' , 'Vendor/*', 'Resource/*', 'TransitionMaker/*'
+s.source_files      = 'TransitionMaker/**/*.swift' , 'Vendor/**/*.swift', 'Resource/**/*.swift', 'TransitionMaker/**/*.swift'
 s.requires_arc      = true
 
 end
