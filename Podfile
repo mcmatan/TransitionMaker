@@ -2,12 +2,8 @@ use_frameworks!
 
 target 'TransitionMaker' do
 
-pod 'TransitionMaker', :path => './'
-
   target 'TransitionMakerTests' do
     inherit! :search_paths
-
-pod 'TransitionMaker', :path => './'
   end
 
   post_install do |installer|
