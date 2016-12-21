@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 7682e3c8019a3c1ff02366df7e6ca05cd11a9ba6
+PODS:
+  - TransitionMaker (0.1.0)
 
-COCOAPODS: 1.1.0.rc.1
+DEPENDENCIES:
+  - TransitionMaker (from `./`)
+
+EXTERNAL SOURCES:
+  TransitionMaker:
+    :path: ./
+
+SPEC CHECKSUMS:
+  TransitionMaker: 284de6544151dee671e821b616163c0d1a018ba7
+
+PODFILE CHECKSUM: 770787a84d80277defaf5a2bc3a04e617db7bf54
+
+COCOAPODS: 1.0.0

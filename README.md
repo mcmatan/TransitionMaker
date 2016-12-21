@@ -5,6 +5,12 @@ After ImageOpenTransition(https://github.com/mcmatan/ImageOpenTransition) succes
 This is still in progress, use at your risk.
 
 
+For Swift 2.3 use
 ```ruby
-pod 'TransitionMaker'
+pod 'TransitionMaker', '~> 0.0.5'
+```
+
+For Swift 3.0 use
+```ruby
+pod 'TransitionMaker', '~> 0.1.0'
 ```
