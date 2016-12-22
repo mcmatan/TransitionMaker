@@ -18,8 +18,8 @@ extension UIViewController {
         }
 
         
-        if UIApplication.sharedApplication().statusBarHidden == false {
-            height += UIApplication.sharedApplication().statusBarFrame.height
+        if UIApplication.shared.isStatusBarHidden == false {
+            height += UIApplication.shared.statusBarFrame.height
         }
 
         
@@ -30,8 +30,8 @@ extension UIViewController {
 extension UIImage {
     
     func copyImage()->UIImage {
-        let newCgIm = CGImageCreateCopy(self.CGImage!)
-        let newImage = UIImage(CGImage: newCgIm!, scale: self.scale, orientation: self.imageOrientation)
+        let newCgIm = self.cgImage!.copy()
+        let newImage = UIImage(cgImage: newCgIm!, scale: self.scale, orientation: self.imageOrientation)
         return newImage
     }
 }
@@ -41,7 +41,7 @@ extension UIView
     func copyView() -> UIView {
 
         UIGraphicsBeginImageContextWithOptions(bounds.size, false,  0.0)
-        self.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        self.layer.render(in: UIGraphicsGetCurrentContext()!)
         let image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         

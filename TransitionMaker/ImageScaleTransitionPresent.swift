@@ -11,13 +11,13 @@ import UIKit
 
 class ImageScaleTransitionPresent : NSObject  {
 
-    static func animateTransitionObject(transitionObject : ImageScaleTransitionObject, fromViewController : UIViewController, toViewController : UIViewController, containerView : UIView, animationOptions: UIViewAnimationOptions, fadeOutAnimationDelay: NSTimeInterval) {
+    static func animateTransitionObject(_ transitionObject : ImageScaleTransitionObject, fromViewController : UIViewController, toViewController : UIViewController, containerView : UIView, animationOptions: UIViewAnimationOptions, fadeOutAnimationDelay: TimeInterval) {
         
-        transitionObject.viewToAnimateTo.hidden = true
-        transitionObject.viewToAnimateFrom.hidden = true
+        transitionObject.viewToAnimateTo.isHidden = true
+        transitionObject.viewToAnimateFrom.isHidden = true
         
         
-        var viewEndFrame = toViewController.view!.convertRect(transitionObject.viewToAnimateTo.frame, toView: containerView)
+        var viewEndFrame = toViewController.view!.convert(transitionObject.viewToAnimateTo.frame, to: containerView)
         if let isFrameToAnimateTo = transitionObject.frameToAnimateTo {
             viewEndFrame = isFrameToAnimateTo
         }
@@ -25,9 +25,9 @@ class ImageScaleTransitionPresent : NSObject  {
         assert(transitionObject.viewToAnimateFrom.image != nil, "Trying to animate with no Image")
         
         let viewToAnimateFromCopy = UIImageView(image: transitionObject.viewToAnimateFrom.image!.copyImage())
-        viewToAnimateFromCopy.contentMode = UIViewContentMode.ScaleAspectFill
+        viewToAnimateFromCopy.contentMode = UIViewContentMode.scaleAspectFill
         
-        viewToAnimateFromCopy.frame = transitionObject.viewToAnimateFrom.superview!.convertRect(transitionObject.viewToAnimateFrom.frame, toView: containerView)
+        viewToAnimateFromCopy.frame = transitionObject.viewToAnimateFrom.superview!.convert(transitionObject.viewToAnimateFrom.frame, to: containerView)
         
         viewToAnimateFromCopy.clipsToBounds = true
         
@@ -39,11 +39,11 @@ class ImageScaleTransitionPresent : NSObject  {
         
         containerView.addSubview(viewToAnimateFromCopy)
         
-        UIView.animateWithDuration(transitionObject.duration, delay: 0, options: animationOptions, animations: {
+        UIView.animate(withDuration: transitionObject.duration, delay: 0, options: animationOptions, animations: {
             
             if viewHasRoundedCorders == true {
-                viewToAnimateFromCopy.transform = CGAffineTransformMakeScale(scaleSize, scaleSize)
-                viewToAnimateFromCopy.center = CGPointMake(viewEndFrame.origin.x + (viewEndFrame.width/2), viewEndFrame.origin.y + (viewEndFrame.height/2))
+                viewToAnimateFromCopy.transform = CGAffineTransform(scaleX: scaleSize, y: scaleSize)
+                viewToAnimateFromCopy.center = CGPoint(x: viewEndFrame.origin.x + (viewEndFrame.width/2), y: viewEndFrame.origin.y + (viewEndFrame.height/2))
             } else {
                 viewToAnimateFromCopy.frame = viewEndFrame
             }
@@ -51,8 +51,8 @@ class ImageScaleTransitionPresent : NSObject  {
         
         afterDelay((transitionObject.duration + fadeOutAnimationDelay)) {
             viewToAnimateFromCopy.removeFromSuperview()
-            transitionObject.viewToAnimateTo.hidden = false
-            transitionObject.viewToAnimateFrom?.hidden = false
+            transitionObject.viewToAnimateTo.isHidden = false
+            transitionObject.viewToAnimateFrom?.isHidden = false
         }
     }
 

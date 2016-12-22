@@ -178,12 +178,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF2F0021D7C08D90098FF27 /* Build configuration list for PBXNativeTarget "TransitionMaker" */;
 			buildPhases = (
+				59784551DD7125F52E8DFAEF /* 📦 Check Pods Manifest.lock */,
 				7C3F9A6906AC891C03878CD7 /* [CP] Check Pods Manifest.lock */,
 				EDF2EFE91D7C08D90098FF27 /* Sources */,
 				EDF2EFEA1D7C08D90098FF27 /* Frameworks */,
 				EDF2EFEB1D7C08D90098FF27 /* Headers */,
 				EDF2EFEC1D7C08D90098FF27 /* Resources */,
 				17EEF2ED0B90F716001875DB /* [CP] Copy Pods Resources */,
+				00C88C4035764582456E759F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,12 +200,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF2F0051D7C08D90098FF27 /* Build configuration list for PBXNativeTarget "TransitionMakerTests" */;
 			buildPhases = (
+				9934FBB222058F6A09413ED3 /* 📦 Check Pods Manifest.lock */,
 				A77D2C7D8F3C4D243C9F656A /* [CP] Check Pods Manifest.lock */,
 				EDF2EFF41D7C08D90098FF27 /* Sources */,
 				EDF2EFF51D7C08D90098FF27 /* Frameworks */,
 				EDF2EFF61D7C08D90098FF27 /* Resources */,
 				AA45B6A9450410394376C0B7 /* [CP] Embed Pods Frameworks */,
 				6C841636F4B5967F398C4C09 /* [CP] Copy Pods Resources */,
+				9DF5BEC2E4A3D666C1533EEE /* 📦 Embed Pods Frameworks */,
+				C485F046A9C26862767C4E3F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,11 +232,11 @@
 				TargetAttributes = {
 					EDF2EFED1D7C08D90098FF27 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 					};
 					EDF2EFF71D7C08D90098FF27 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -273,6 +278,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00C88C4035764582456E759F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMaker/Pods-TransitionMaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		17EEF2ED0B90F716001875DB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +306,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMaker/Pods-TransitionMaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59784551DD7125F52E8DFAEF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6C841636F4B5967F398C4C09 /* [CP] Copy Pods Resources */ = {
@@ -318,6 +353,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		9934FBB222058F6A09413ED3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF5BEC2E4A3D666C1533EEE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerTests/Pods-TransitionMakerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A77D2C7D8F3C4D243C9F656A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +411,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerTests/Pods-TransitionMakerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C485F046A9C26862767C4E3F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionMakerTests/Pods-TransitionMakerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -536,7 +616,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -548,7 +628,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JV.TransitionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
